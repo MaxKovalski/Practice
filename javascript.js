@@ -77,4 +77,38 @@
 //     console.log(b[s])
 // }
 
+// let c =  [1,3,7,4,2,9];
+//  let sum1 = 0
+// for(let b of c){
+// sum += b
+// }
+// console.log(sum)
 
+// sum = 0
+// numbers = {
+//     one: 1,
+//     two :2,
+//     three:3,
+//     four:4,
+// }
+// for(number in numbers){
+//  sum += numbers[number]
+// }
+// console.log(sum)
+
+
+// 
+
+// numbers = [1,3,7,4,2,9]
+// sum = 0;
+// numbers.forEach((value) => {
+//     sum +=value
+// });
+// console.log(sum)
+
+let names = ['maxim','nadav','tomer','vladimir','bar']
+let special = ""
+names.forEach((value)=>{
+   special += value.charAt(0)
+})
+console.log(special)
